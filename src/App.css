@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0px auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+img {
+  width: 100%;
+}
+
+.w-1 {
+  width: 8.33%;
+}
+
+.w-2 {
+  width: 16.66%;
+}
+
+.w-3 {
+  width: 25%;
+}
+
+.w-4 {
+  width: 33.33%;
+}
+
+.w-5 {
+  width: 41.66%;
+}
+
+.w-6 {
+  width: 50%;
+}
+
+.w-7 {
+  width: 58.33%;
+}
+
+.w-8 {
+  width: 66.66%;
+}
+
+.w-9 {
+  width: 75%;
+}
+
+.w-10 {
+  width: 83.33%;
+}
+
+.w-11 {
+  width: 91.66%;
+}
+
+.w-12 {
+  width: 100%;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+.ali-c {
+  align-items: center;
+}
+
+.ali-e {
+  align-items: end;
+}
+
+.justify-e {
+  justify-content: end;
+}
+
+.justify-c {
+  justify-content: center;
+}
+.justify-s{
+  justify-content: space-between;
+}
+.logo{
+  font-size: 60px;
+  
+}
+
+header{
+  background-color: rgb(236, 233, 229);
+  padding: 15px 0px;
+
+}
+.Log{
+  font-size: 50px;
+  color: rgb(252, 9, 196);
+}
+.menuitem{
+  display: flex;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.menuitem li a{
+  margin: 0px 20px;
+  color: rgb(252, 9, 196);
+}
+.btn{
+  padding: 10px 20px;
+  display:inline-block ;
+  font-weight: 600;
+  color: rgb(252, 9, 196);
+  outline: none ;
+  border-radius: 25px;
+  transition: all 1s;
+  
+}
+.btn:hover{
+  background-color: rgb(252, 9, 196);
+  color: white;
+}
